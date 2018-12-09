@@ -1,0 +1,28 @@
+h1,h2 {
+	color: darkolivegreen;
+}
+p{
+	color: yellow;
+}
+.animate-1{
+	animation: my-animation;
+	animation-duration: 6s;
+}
+@keyframes my-animation {
+	from { opacity:0; }
+	to {opacity:6;}
+}
+.animate-2{
+	animation-name: blinking-bg;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-delay:4s;
+}
+@keyframes blinking-bg {
+	0%{background-color: #bff442}
+	40%{background-color: #f9ff63}
+	80%{background-color: #ffd263}
+	100%{background-color: #ff8c63}
+
+	
+}

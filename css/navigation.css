@@ -1,26 +1,26 @@
-.navigation-menu ul{
-		list-style: none;
-		margin: 0px;
-		padding: 0px;
-		overflow: hidden;
-		background-color: mediumpurple
+.navigation-menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #632f8e;
 }
-.navigation-menu li{
-		float: left;
-		font-size: 20px;
+.navigation-menu li {
+	float: left;
+	font-size: 30px;
 }
-	.navigation-menu a {
-			display: block;
-			background-color: mediumpurple;
-			color: white;
-			padding-right: 40px;
-			padding-bottom: 25px;
-			padding-left: 40px;
-			padding-top: 25px;
-			margin: 20px;
+.navigation-menu a {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 20px;
+	background-color: #632f8e;
+	color: white;
 }
-.navigation-menu .active{
-			color:black;
-			background-color: blue;
-			font-weight: bold;
+.navigation-menu .active {
+	color: black;
+	background-color: yellow;
+	font-weight: bold;
 }
