@@ -4,6 +4,11 @@ h1,h2 {
 p{
 	color: yellow;
 }
+
+.bg {
+	background-repeat: no-repeat;
+
+}
 .animate-1{
 	animation: my-animation;
 	animation-duration: 6s;
@@ -25,4 +30,12 @@ p{
 	100%{background-color: #ff8c63}
 
 	
+}
+.snow .card{
+	width: 400px;
+	height: 474px;
+}
+.snow .card-text {
+	color: blue;
+
 }
